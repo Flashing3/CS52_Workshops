@@ -9,3 +9,7 @@ I have done the following:
 * [ ] Uploaded a website with integrated Mapbox
 * [ ] Customized the map
 * [ ] Created a custom style
+
+## Surge at this address:
+
+http://workshop-5-junfei.surge.sh/
