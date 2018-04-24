@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+    <meta charset='utf-8' />
+    <title>Tim's Pizza</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo-detail">
+      <img src="img/tim_mohawk.jpeg" id="tim-pic">
+      <a href="#" id="company-name">Tim's Pizza Place</a>
+    </div>
+
+    <div class="hamburger">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <ul id="nav-links">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Globalization</a>
+      </li>
+      <li>
+        <a href="#">Order Online</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="page-container">
+    <div class="announcement-container">
+      <h1>World domination coming soon</h1>
+      <h2>Tim's is going global! Use the map below to find a location near you.</h2>
+      <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic3RvcGljMTMiLCJhIjoiY2pnYmQ1Y3llMXl0ejJ4cWpsbmJrMWtmdiJ9.R1lW4rNrIfO4m1mBx18LNA';
+  var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/stopic13/cjgbgrd0n4mos2rnihvtw2ipr'
+  });
+
+</script>
+    </div>
+  </div>
+
+</body>
+</html>
