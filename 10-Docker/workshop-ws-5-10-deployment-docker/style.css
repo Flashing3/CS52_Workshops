@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Play');
+@import url('https://fonts.google.com/specimen/Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Open Sans', Gothic, Helvetica,sans-serif,,Arial,sans-serif;
+  font-weight: light;
+  font-size: 16px;
+  line-height: 1.5em;
+  height: 100%;
+  /*name*/
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+}
+
+.cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cover.gif") center;
+  /* gif source: https://mp.weixin.qq.com/s?__biz=MzA3MjQxMTAwNA==&mid=2651136687&idx=1&sn=89e4b5752477d2c97f2d4f6342cbd879&chksm=84ef30bcb398b9aa2e899205bc4b222fc810bd8765eaaa6226d660df1a0d1c01b094570aac71&scene=0&key=8e58dd8e1c344716c86ede80b776ba509617529e33fd051ccad1202cce0acbbad5236e835a993667b6fc80b4c2a4de195102e2df8f16cc6b6260b03e0ae3687e5e9e7d7d42ffbe46eb1cc02107eb1cad&ascene=0&uin=NzU2NDYyMjgx&devicetype=iMac+MacBookPro11%2C1+OSX+OSX+10.13.3+build(17D102)&version=12020810&nettype=WIFI&lang=zh_CN&fontScale=100&pass_ticket=d46%2FiljWJMTsVP7yb661VONyZMY%2FTIWgWpBfY59KT92NbQ3yu7ojEt4tH5mx6vHP */
+  /* Learnt how darken the background from https://stackoverflow.com/questions/26621513/darken-css-background-image */
+
+  background-size:cover;
+  height: 100%;
+  color: white;
+}
+
+
+
+h1{
+
+  font-weight: 400;
+  margin-top: 45px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 20px;
+  padding: 0;
+}
+
+h2{
+  padding: 0;
+  font-family:'Open Sans';
+  font-weight: 400;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.btn-groups {
+  display: flex;
+  text-transform: uppercase;
+  color:#fff;
+  padding: 0;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+  outline: 0;
+}
+
+.btn-groups a {
+  background-color: rgba(0,0,0,0.5);
+  border-style: solid;
+  border-color: purple;
+  margin-left: 2px;
+  margin-right: 20px;
+  border-radius: 25px;
+
+}
+
+
+.btn-groups a:hover {
+  border-color: white;
+}
+
+.hot_videos {
+  text-transform: uppercase;
+  color:#fff;
+  padding: 12px 20px 10px;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  text-align: center;
+  vertical-align: center;
+  outline: 0;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  padding: 0px;
+
+}
+
+.hot_videos a:hover {
+  color: red;
+}
+
+a {
+    color: #fff;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px #fff;
+    box-sizing: border-box;
+}
+
+.top-headers {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.top-headers a {
+  color: #fff;
+    text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: light;
+  font-size: 12px;
+}
+
+.Supervata_logo {
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+  width: 140px;
+  height: 40px;
+   vertical-align: baseline;
+}
+
+.Supervata_logo img{
+  width: 100%;
+  height: auto;
+}
+
+.top-headers_part_1 {
+  display: flex;
+  align-items:center;
+  text-align: center;
+justify-content: center;
+}
+
+.top-headers_part_1 a:hover {
+    color: grey;
+}
+
+.top-headers_part_2 {
+  display: flex;
+  align-items:center;
+  justify-content: flex-end;
+}
+.top-headers_part_2 li {
+  margin-right: 2px;
+}
+
+
+.top-headers_part_2 a:hover {
+    color: grey;
+}
+
+.sentence_1 {
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  font-weight: light;
+}
+
+.sentence_2 {
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  font-weight: light;
+}
+
+.bottom_footer {
+
+  display: flex;
+  font-size: 12px;
+  align-items:right;
+  font-style: 'Open Sans';
+  justify-content:center;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.company_intro {
+  display: flex;
+  flex-direction: column;
+  line-height: 15px;
+  font-size: 14px;
+  font-weight: lighter;
+  font-family: 'Open Sans';
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+.button_containters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: auto;
+  line-height: 30px;
+}
+
+.button_items {
+  font-size: 20px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+.button {
+  padding: 0px, 0px;
+  color: #fff;
+  text-align: center;
+  vertical-align: baseline;
+  justify-content: center;
+  background-color: #E6A4EB;
+  font-size: 12px;
+  border-radius: 25px;
+
+}
+
+
+.button:hover {
+  /* from https://www.w3schools.com/css/css3_buttons.asp */
+  background-color: #909FEE; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 #909FEE, 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.concert_picture {
+    display: None;
+    visibility: visible;
+}
+
+
+/* the following two are inspired from: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* For edium screens. The max-width is set to 1200px to test its display on an iPhone 7plus screen.*/
+@media only screen and (max-width: 1200px) {
+
+  .Supervata_logo image_logo {
+    width: 200%;
+    height: 200%;
+  }
+  
+  .btn-groups {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+  }
+
+  .btn-groups a{
+    font-size: 400%;
+      line-height: 100%;
+
+  }
+
+  .hot_videos a {
+    font-size: 400%;
+      line-height: 100%;
+
+  }
+
+  .sentence_1 {
+    font-size: 200%;
+    line-height: 100%;
+  }
+
+  .sentence_2 {
+    font-size: 200%;
+    line-height: 100%;
+  }
+
+  .top-headers {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .cover {
+    flex-direction: column;
+  }
+
+
+  .top-headers_part_1 {
+      display: none;
+
+  }
+
+
+  .top-headers_part_2 {
+      flex-direction: column;
+
+  }
+
+  .top-headers_part_2 a{
+    font-size: 25px;
+  }
+
+  .e-mail_list {
+    font-size: 25px;
+  }
+
+
+  .button {
+    font-size: 25px;
+  }
+
+  .bottom_footer {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .bottom_footer a{
+    font-size: 20px;
+  }
+
+  .company_intro {
+    flex-direction: column;
+    justify-content: center;
+    display: None;
+  }
+
+  .intro_items {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    line-height: 20px;
+  }
+
+  .concert_picture {
+    display: flex;
+    visibility: visible;
+    padding: 0;
+    display: block;
+    flex-direction: column;
+
+  }
+
+  .concert_picture img {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+}
